@@ -7,7 +7,7 @@ Este control almacena las tarjetas en una variable llamada "CardNumber", las cua
 
 -----------------------------------------------------------------------------------------
 **Esquemático:**
-<span>![</span><span>Esquemático del circuito</span><span>]</span><span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://github.com/Alcario/cerradura/blob/main/Esquematico.png)</span><span>)</span>
+![Esquemático](https://github.com/Alcario/cerradura/blob/main/Esquematico.png)
 -----------------------------------------------------------------------------------------
 El **listado de componentes** empleados es el siguiente:
 
