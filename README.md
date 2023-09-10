@@ -1,9 +1,20 @@
 # cerradura
 Control de cerradura por RFID
 -----------------------------------------------------------------------------------------
-El fin de este proyecto es controlar un electroimán por medio de llaves magnéticas.
 
-Este control almacena las tarjetas en una variable llamada "CardNumber", las cuales están concetenadas por los caracteres " - ", al momento de leer una tarjeta se realiza un indexOf en la variable anteriormente detallada para saber si la tarjeta leida es conocida. En caso de coincidir se desactiva el electroimán y se activa un pitido por medio del buzzer para dar aviso de que la lectura fue correcta. En caso de que el valor leido no es correcto se emiten tres pitidos.
+El proyecto "Sistema de Control de Acceso con RFID y Buzzer" se enfoca en el desarrollo de un sistema de seguridad y acceso utilizando tecnología RFID (Radio-Frequency Identification) implementado a través de un microcontrolador Arduino. Este sistema permite autorizar o denegar el acceso a un área específica según la tarjeta RFID presentada al lector, emitiendo señales audibles mediante un buzzer y controlando la apertura de un portón.
+
+-----------------------------------------------------------------------------------------
+
+**Características Principales:**
+
+**Lector RFID:** El proyecto utiliza un lector RFID MFRC522 para la identificación de tarjetas RFID.
+
+**Autenticación Segura:** Se ha implementado una clave de autenticación para garantizar que solo las tarjetas autorizadas tengan acceso.
+
+**Interacción Auditiva:** Un buzzer se utiliza para proporcionar retroalimentación auditiva. Emitirá pitidos para indicar si la tarjeta es válida o si se ha producido un error en la lectura.
+
+**Control del Portón:** El sistema tiene la capacidad de controlar la apertura y cierre de un portón mediante la activación de un electroimán. El portón se abre cuando se presenta una tarjeta válida y se cierra después de un tiempo determinado.
 
 -----------------------------------------------------------------------------------------
 **Esquemático:**
