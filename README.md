@@ -6,6 +6,9 @@ El fin de este proyecto es controlar un electroimán por medio de llaves magnét
 Este control almacena las tarjetas en una variable llamada "CardNumber", las cuales están concetenadas por los caracteres " - ", al momento de leer una tarjeta se realiza un indexOf en la variable anteriormente detallada para saber si la tarjeta leida es conocida. En caso de coincidir se desactiva el electroimán y se activa un pitido por medio del buzzer para dar aviso de que la lectura fue correcta. En caso de que el valor leido no es correcto se emiten tres pitidos.
 
 -----------------------------------------------------------------------------------------
+**Esquemático:**
+<span>![</span><span>Esquemático del circuito</span><span>]</span><span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://github.com/Alcario/cerradura/blob/main/Esquematico.png)</span><span>)</span>
+-----------------------------------------------------------------------------------------
 El **listado de componentes** empleados es el siguiente:
 
 **Control:**
